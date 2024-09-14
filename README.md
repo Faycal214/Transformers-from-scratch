@@ -108,6 +108,10 @@ The third is the path length between long-range dependencies in the network. Lea
 
 
 To import the dataset from Hugging Face, you can use the `datasets` library. Here’s how to do it:
+<p style="text-align: center;">
+  For more details about the dataset, visit the <a href="https://huggingface.co/datasets/PaulineSanchez/Translation_words_and_sentences_english_french">Hugging Face dataset page</a>.
+</p>
+
 
 ```python
 from datasets import load_dataset
