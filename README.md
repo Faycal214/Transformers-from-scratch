@@ -107,5 +107,12 @@ One is the total computational complexity per layer. Another is the amount of co
 The third is the path length between long-range dependencies in the network. Learning long-range dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the ability to learn such dependencies is the length of the paths forward and backward signals have to traverse in the network. The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies. Hence we also compare the maximum path length between any two input and output positions in networks composed of the different layer types.
 
 
+To import the dataset from Hugging Face, you can use the `datasets` library. Here’s how to do it:
+
+```python
+from datasets import load_dataset
+
+# Load the dataset
+ds = load_dataset("PaulineSanchez/Translation_words_and_sentences_english_french")
 
 
